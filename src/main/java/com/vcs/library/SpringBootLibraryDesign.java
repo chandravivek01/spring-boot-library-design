@@ -26,7 +26,7 @@ public class SpringBootLibraryDesign implements CommandLineRunner {
 		greatLearning.setCourseName("fullStack");
 		greatLearning.setStudentName("vivek");
 		System.out.println(greatLearning);
-		
+
 	}
 
 }
