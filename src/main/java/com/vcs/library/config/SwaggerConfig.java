@@ -14,7 +14,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket libraryApi() {
-		return new Docket(DocumentationType.SWAGGER_2).groupName("Library-API").select()
-				.apis(RequestHandlerSelectors.basePackage("com.vcs.library.controller")).build();
+		return new Docket(DocumentationType.SWAGGER_2).groupName("Library-API")
+				.select().apis(RequestHandlerSelectors.basePackage("com.vcs.library.controller")).build();
 	}
 }
